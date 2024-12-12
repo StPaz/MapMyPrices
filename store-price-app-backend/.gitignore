@@ -1,0 +1,61 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment variables
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled files
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.class
+
+# Temporary files
+*.tmp
+*.out
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# PostgreSQL
+*.sql
+*.dump
+pgdata/
+
+# Build and Coverage
+coverage/
+.next/
+out/
+
+# Framework-Specific (Add based on framework)
+# Django migrations
+**/migrations/*.pyc
+**/migrations/*.py
+
+# Docker
+*.env.local
+docker-compose.override.yml
+
+# Testing
+.pytest_cache/
